@@ -21,3 +21,27 @@
   font-size: 16px;
   margin: 0;
 }
+
+/* SPLASH */
+.splash .figura,
+.splash .figura .imagem {
+  width: 100%;
+  margin: 0;
+}
+
+.splash .figura {
+  position: relative;
+}
+
+.splash .figura .descricao {
+  position: absolute;
+  bottom: 8rem;
+  width: 100%;
+}
+
+.splash .figura .descricao .titulo {
+  color: #FFF;
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 0 0 2rem #000;
+}
