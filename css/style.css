@@ -3,7 +3,7 @@
   src: url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-300-webfont.eot);
   src: url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-300-webfont.eot?#iefix) format("embedded-opentype"), url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-300-webfont.woff2) format("woff2"), url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-300-webfont.woff) format("woff"), url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-300-webfont.ttf) format("truetype"), url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-300-webfont.svg#museo_sans300) format("svg");
   font-weight: 300;
-  font-style: normal
+  font-style: normal;
 }
 
 @font-face {
@@ -11,17 +11,21 @@
   src: url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-500-webfont.eot);
   src: url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-500-webfont.eot?#iefix) format("embedded-opentype"), url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-500-webfont.woff2) format("woff2"), url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-500-webfont.woff) format("woff"), url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-500-webfont.ttf) format("truetype"), url(http://images.elo7.com.br/assets/v3/fonts/museo-sans-500-webfont.svg#museo_sans500) format("svg");
   font-weight: 500;
-  font-style: normal
+  font-style: normal;
 }
 
 /* GENERAL */
+html { font-size: 10px; }
+
 a {
   text-decoration: none;
   color: #359c9c;
-  font-size: 1.1rem;
   font-weight: 500;
+  font-size: 1.8rem;
 }
 a:hover { text-decoration: underline; }
+
+p { line-height: 2.4rem; }
 
 .divisor {
   width: 25%;
@@ -31,15 +35,18 @@ a:hover { text-decoration: underline; }
   border: none;
 }
 
-.button { text-transform: uppercase; }
+.button {
+  margin: 1rem;
+  display: inline-block;
+  text-transform: uppercase;
+}
 .button:after { content: " »"; }
 
 /* HOME */
 .home {
   font-family: museo_sans, sans-serif;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 1.5rem;
+  font-size: 1.6rem;
   margin: 0;
   color: #7d7873;
   width: 960px;
@@ -58,7 +65,7 @@ a:hover { text-decoration: underline; }
 
 .splash .figura .descricao {
   position: absolute;
-  bottom: 7rem;
+  bottom: 9rem;
   width: 100%;
 }
 
@@ -66,11 +73,72 @@ a:hover { text-decoration: underline; }
   color: #FFF;
   text-align: center;
   font-size: 300%;
-  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0, 0.5);
+  text-shadow: 0.2rem 0.2rem 1rem rgba(0,0,0, 0.5);
 }
 
 /* SOBRE */
 .sobre {
-  margin: 1.2rem 2rem;
+  margin: 2.5rem 5rem;
   text-align: center;
+}
+
+/* TIME */
+.time {
+  background-color: #f8f8f8;
+  padding: 5rem;
+  margin: 2rem 0;
+}
+
+/* TIME - CEO */
+.time .ceo .video {
+  float: left;
+  margin-right: 5rem;
+}
+
+.time .ceo .titulo {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.time .ceo .subtitulo {
+  margin: 0.8rem;
+  font-weight: normal;
+  color: orange;
+  font-style: italic;
+}
+
+.time .ceo .texto {
+  margin-top: 4rem;
+  text-align: justify;
+}
+
+/* TIME - INTEGRANTES */
+.time .integrantes {
+  margin-top: 4rem;
+  clear: both;
+  text-align: center;
+}
+
+.time .integrantes .titulo {
+  font-size: 2rem;
+  text-transform: uppercase;
+  width: 24rem;
+  display: inline-block;
+}
+
+.time .integrantes .lista {
+  padding: 0;
+  margin: 0;
+  margin-top: 3rem;
+}
+
+.time .integrantes .lista .item {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.time .integrantes .lista .item:last-child {
+  margin-right: 0;
 }
