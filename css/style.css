@@ -151,3 +151,34 @@ p { line-height: 2.4rem; }
 .time .integrantes .lista .item:last-child {
   margin-right: 0;
 }
+
+/* DIFERENCIAIS */
+.diferenciais {
+  text-align: center;
+}
+
+.diferenciais .lista {
+  margin: 4rem 3rem;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.diferenciais .lista .item {
+  text-align: justify;
+  list-style-type: none;
+  width: 26rem;
+  margin: 2rem;
+  margin-bottom: 0;
+  float: left;
+}
+
+.diferenciais .lista .item .figura {
+  text-align: center;
+  margin: 0;
+}
+
+.diferenciais .lista .item .titulo {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 2.5rem 0 3rem;
+}
