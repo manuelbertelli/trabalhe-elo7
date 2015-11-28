@@ -13,3 +13,11 @@
   font-weight: 500;
   font-style: normal
 }
+
+/* HOME */
+.home {
+  font-family: museo_sans, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+}
