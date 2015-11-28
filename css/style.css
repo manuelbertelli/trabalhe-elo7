@@ -14,12 +14,35 @@
   font-style: normal
 }
 
+/* GENERAL */
+a {
+  text-decoration: none;
+  color: #359c9c;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+a:hover { text-decoration: underline; }
+
+.divisor {
+  width: 25%;
+  height: 2px;
+  margin: 1.2rem auto;
+  background-color: rgba(125, 120, 115, 0.5);
+  border: none;
+}
+
+.button { text-transform: uppercase; }
+.button:after { content: " »"; }
+
 /* HOME */
 .home {
   font-family: museo_sans, sans-serif;
   font-weight: 300;
   font-size: 16px;
+  line-height: 1.5rem;
   margin: 0;
+  color: #7d7873;
+  width: 960px;
 }
 
 /* SPLASH */
@@ -35,13 +58,19 @@
 
 .splash .figura .descricao {
   position: absolute;
-  bottom: 8rem;
+  bottom: 7rem;
   width: 100%;
 }
 
 .splash .figura .descricao .titulo {
   color: #FFF;
   text-align: center;
-  font-size: 4rem;
-  text-shadow: 0 0 2rem #000;
+  font-size: 300%;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0, 0.5);
+}
+
+/* SOBRE */
+.sobre {
+  margin: 1.2rem 2rem;
+  text-align: center;
 }
