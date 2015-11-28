@@ -182,3 +182,46 @@ p { line-height: 2.4rem; }
   text-transform: uppercase;
   margin: 2.5rem 0 3rem;
 }
+
+/* VAGAS */
+.vagas {
+  margin: 5rem;
+}
+
+.vagas .figura {
+  margin: 0;
+  text-align: center;
+}
+
+.vagas .figura .titulo {
+  font-size: 2rem;
+  margin: 5rem;
+  text-transform: uppercase;
+}
+
+.vagas .lista {
+  width: 100%;
+}
+
+.vagas .lista th,
+.vagas .lista td {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.vagas .lista thead th {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.vagas .lista tbody td {
+  padding: 1rem 0;
+}
+
+.vagas .lista tbody tr td:last-child {
+  text-align: right;
+  color: #9b9b9b;
+}
